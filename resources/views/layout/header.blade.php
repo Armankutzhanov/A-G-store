@@ -5,19 +5,6 @@
             <strong>A&GStore</strong>
         </a>
 
-        <div class="btn-group">
-            <button class="btn btn-secondary btn-sm" type="button">
-               <a href="">КАТЕГОРИЯ</a>
-            </button>
-            <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="visually-hidden">Toggle Dropdown</span>
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-        </div>
         <li><a href="{{route('about')}}" class="text-white">О Нас</a></li>
 
 

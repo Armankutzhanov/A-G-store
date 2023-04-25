@@ -38,7 +38,7 @@
                 <div class="title col-4">{{$product->name}}</div>
                 <div class="title col-1">{{$product->quantity}}</div>
                 <div class="author col-2">{{$product->price}}</div>
-                <div class="del col-2"><a href="{{route('basket.remove')}}">delete</a></div>
+                <div class="del col-2"><a href=""></a></div>
                 <div class="red col-2"><a href=""></a></div>
             @endforeach
                 @endif
