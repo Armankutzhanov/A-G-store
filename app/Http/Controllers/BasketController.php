@@ -45,7 +45,7 @@ class BasketController extends Controller
     public function add(Request $request)
     {
         if (Auth::check()) {
-            $user_id =$request->session()->getId();
+            $user_id =auth()->user()->id;
             $product_id = $request->product_id;
             $products = Product::where('id', $product_id)->pluck('price')->implode('price');
             $cart_item = CartItem::where('product_id', $product_id)->pluck('id')->isNotEmpty();

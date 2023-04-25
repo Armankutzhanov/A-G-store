@@ -35,6 +35,7 @@ class TopicController extends Controller
         $guest_id=GuestTable::pluck('id')->isNotEmpty();
 
 
+
         return view('posts.guest',compact('guest_products','guest_id'));
     }
 
